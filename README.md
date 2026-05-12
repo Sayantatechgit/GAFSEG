@@ -22,7 +22,7 @@ Polyp: [Kvasir](https://datasets.simula.no/kvasir-seg/), [CVC-ClinicDB](https://
 ISIC: [ISIC](https://challenge.isic-archive.com/data/)
 
 Please download all the dataset and place them in the project directory. The folder structure within `data` should be organized as follows.
-
+```
 data/
 ├── polyp/
 │   ├── CVC-300/
@@ -39,3 +39,4 @@ data/
     ├── D3/
     ├── D4/
     └── D5/
+```
