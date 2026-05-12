@@ -8,3 +8,8 @@
 - Python 3.10
 - PyTorch 2.7.1
 - NVIDIA GPU + [CUDA](https://developer.nvidia.com/cuda-downloads)
+
+## Create environment and install packages
+- `conda create -n GAFSEG python=3.10`
+- `conda activate GAFSEG`
+- `pip install -r requirements.txt`
