@@ -45,6 +45,5 @@ data/
 Run the train script 
 ```
 `$ python train.py --data polyp --img_path data --device 0`.
-```
 `$ python train.py --data isic --img_path data --device 0`.
 ```
