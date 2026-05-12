@@ -53,3 +53,14 @@ For isic dataset-
 ```
 $ python train.py --data isic --img_path data --device 0
 ```
+
+Download the log folders from [checkpoints](https://drive.google.com/drive/folders/1zx3fu40Rm9MbziWw9VL-DS9CtFQzem2G?usp=drive_link) and place them in the project directory
+
+Run the following scripts:
+
+```
+$ python test.py --data polyp --img_path data --device 0
+```
+```
+$ python test.py --data isic --img_path data --device 0
+```
