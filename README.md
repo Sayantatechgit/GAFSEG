@@ -21,29 +21,48 @@ Polyp: [Kvasir](https://datasets.simula.no/kvasir-seg/), [CVC-ClinicDB](https://
 
 ISIC: [ISIC](https://challenge.isic-archive.com/data/)
 
-Please download all the dataset and place them in the project directory. The folder structure within `Dataset/` should be organized as follows.
-```
-├── Dataset
-  ├── FedISIC_npy
-    ├── ISIC_0012653_downsampled.npy, ISIC_0012654_downsampled.npy, ...
-  ├── FedCamelyon
-    ├── patches
-      ├── patient_004_node_4, patient_009_node_1, ...
+Please download all the dataset and place them in the project directory. The folder structure within `data` should be organized as follows.
 
-  ├── FedPolyp_npy
-    ├── client1
-      ├── sample1.npy, sample2.npy, ...
-    ├── client2
-    ├── ...
-  ├── FedProstate_npy
-    ├── client1
-      ├── Case00
-        ├── slice_012.npy, slice_013.npy, ...
-      ├── ...
-    ├── client2
-    ├── ...
-  ├── FedFundus_npy
-    ├── client1
-      ├── sample1.npy, sample2.npy, ...
-    ├── client2
-    ├── ...
+├── data
+  ├── polyp
+    ├── CVC-300
+        ├── image
+        ├── mask
+
+    ├── CVC-ClinicDB
+        ├── image
+        ├── mask
+
+    ├── CVC-ColonDB
+        ├── image
+        ├── mask
+
+    ├── EndoTect-ETIS
+        ├── image
+        ├── mask
+
+    ├── Kvasir
+        ├── image
+        ├── mask
+
+  ├── isic
+    ├── D1
+        ├── image
+        ├── mask
+
+    ├── D2
+        ├── image
+        ├── mask
+
+    ├── D3
+        ├── image
+        ├── mask
+
+    ├── D4
+        ├── image
+        ├── mask
+
+    ├── D5
+        ├── image
+        ├── mask
+  
