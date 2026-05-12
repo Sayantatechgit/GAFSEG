@@ -42,9 +42,13 @@ data/
 ```
 
 ### Training 
-Run the train script 
+Run the training scripts:
+For polyp dataset-
+
 ```
 $ python train.py --data polyp --img_path data --device 0
+```
+For isic dataset-
+```
 $ python train.py --data isic --img_path data --device 0
-
 ```
