@@ -23,46 +23,19 @@ ISIC: [ISIC](https://challenge.isic-archive.com/data/)
 
 Please download all the dataset and place them in the project directory. The folder structure within `data` should be organized as follows.
 
-├── data
-  ├── polyp
-    ├── CVC-300
-        ├── image
-        ├── mask
-
-    ├── CVC-ClinicDB
-        ├── image
-        ├── mask
-
-    ├── CVC-ColonDB
-        ├── image
-        ├── mask
-
-    ├── EndoTect-ETIS
-        ├── image
-        ├── mask
-
-    ├── Kvasir
-        ├── image
-        ├── mask
-
-  ├── isic
-    ├── D1
-        ├── image
-        ├── mask
-
-    ├── D2
-        ├── image
-        ├── mask
-
-    ├── D3
-        ├── image
-        ├── mask
-
-    ├── D4
-        ├── image
-        ├── mask
-
-    ├── D5
-        ├── image
-        ├── mask
-  
+data/
+├── polyp/
+│   ├── CVC-300/
+│   │   ├── image/
+│   │   └── mask/
+│   ├── CVC-ClinicDB/
+│   ├── CVC-ColonDB/
+│   ├── EndoTect-ETIS/
+│   └── Kvasir/
+│
+└── isic/
+    ├── D1/
+    ├── D2/
+    ├── D3/
+    ├── D4/
+    └── D5/
