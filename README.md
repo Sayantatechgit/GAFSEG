@@ -1,4 +1,10 @@
 # GAFSEG: GRADIENT-AWARE FEDERATED LEARNING FOR MEDICA LIMAGE SEGMENTATION
 
-> Abstract: Federated learning (FL) enables privacy-preserving medical image segmentation by allowing collaborative training across multiple institutions. However, most existing FL-based medical segmentation methods rely on federated averaging (FedAvg). In the presence of non-IID data distributions, FedAvg may degrade performance due to inconsistent updates from different clients. To address this limitation, we propose gradient-aware federated segmentation (GAFSeg), an FL framework for medical image segmentation. At the server, we introduce a gradient awareness factor (GAF) that adaptively weights client updates based on gradient alignment with the server's aggregated gradient. We also propose a client training technique, termed ProxEMA, that integrates exponential moving-average-based weight updates with a proximal regularization term to suppress model drift across communication rounds. Extensive experiments on multiple publicly available data sources show that the proposed method outperforms the state-of-the-art approaches. 
+> Abstract: Federated learning (FL) enables privacy-preserving medical image segmentation by allowing collaborative training across multiple institutions. However, most existing FL-based medical segmentation methods rely on federated averaging (FedAvg). In the presence of non-IID data distributions, FedAvg may degrade performance due to inconsistent updates from different clients. To address this limitation, we propose gradient-aware federated segmentation (GAFSeg), an FL framework for medical image segmentation. At the server, we introduce a gradient awareness factor (GAF) that adaptively weights client updates based on gradient alignment with the server's aggregated gradient. We also propose a client training technique, termed ProxEMA, that integrates exponential moving-average-based weight updates with a proximal regularization term to suppress model drift across communication rounds. Extensive experiments on multiple publicly available data sources show that the proposed method outperforms the state-of-the-art approaches.
+> 
 ![](fig/f2lf.png)
+> 
+## Dependencies
+- Python 3.10
+- PyTorch 2.7.1
+- NVIDIA GPU + [CUDA](https://developer.nvidia.com/cuda-downloads)
