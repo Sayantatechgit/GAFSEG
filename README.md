@@ -15,6 +15,35 @@
 - `pip install -r requirements.txt`
 
 ## Dataset
+The detailed dataset description is given in Section 1 of the supplementary document.
+
 Polyp: [Kvasir](https://datasets.simula.no/kvasir-seg/), [CVC-ClinicDB](https://polyp.grand-challenge.org/CVCClinicDB/), [CVC-ColonDB](https://ieeexplore.ieee.org/document/7294676), [CVC-300](https://arxiv.org/abs/1612.00799), [EndoTectETIS](https://link.springer.com/article/10.1007/s11548-013-0926-3) and [CVC-300](https://www.kaggle.com/datasets/nourabentaher/cvc-300).
 
 ISIC: [ISIC](https://challenge.isic-archive.com/data/)
+
+Please download all the dataset and place them in the project directory. The folder structure within `Dataset/` should be organized as follows.
+```
+├── Dataset
+  ├── FedISIC_npy
+    ├── ISIC_0012653_downsampled.npy, ISIC_0012654_downsampled.npy, ...
+  ├── FedCamelyon
+    ├── patches
+      ├── patient_004_node_4, patient_009_node_1, ...
+
+  ├── FedPolyp_npy
+    ├── client1
+      ├── sample1.npy, sample2.npy, ...
+    ├── client2
+    ├── ...
+  ├── FedProstate_npy
+    ├── client1
+      ├── Case00
+        ├── slice_012.npy, slice_013.npy, ...
+      ├── ...
+    ├── client2
+    ├── ...
+  ├── FedFundus_npy
+    ├── client1
+      ├── sample1.npy, sample2.npy, ...
+    ├── client2
+    ├── ...
