@@ -7,7 +7,7 @@ This is the official Pytorch implementation of our ICIP, 2026 paper "GAFSEG: GRA
 > 
 ## Dependencies
 - Python 3.10
-- PyTorch 2.7.1
+- PyTorch 2.5.1
 - NVIDIA GPU + [CUDA](https://developer.nvidia.com/cuda-downloads)
 
 ## Create environment and install packages
